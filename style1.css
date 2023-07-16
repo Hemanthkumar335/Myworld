@@ -1,0 +1,274 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+
+
+ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 17px;
+    padding: 8px 14px;
+    border-radius: 3px;
+    background-color: rgb(32, 121, 156);
+
+}
+
+ul :hover{
+    color: rgb(32, 121, 156);
+    background-color: aliceblue;
+    font-weight: bold;
+}
+
+.container{
+    font-family: sans-serif;
+    opacity: 0.8;
+    width: 100%;
+    height: auto;
+    position: fixed;
+}
+
+
+nav{
+    background-color: rgba(13, 30, 82, 0.908);
+    height: 80px;
+    width: 100%;
+}
+
+ol{
+    margin-left: 480px;
+}
+
+ol li{
+    padding: 50px;
+}
+
+ol li a img{
+    mix-blend-mode: multiply;
+}
+
+.h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-style: inherit;
+    color: rgb(12, 54, 66);
+    text-shadow: 5px 5px 5px gray;
+    margin-top: 40px;
+}
+
+p{
+    margin-left: 520px;
+    margin-top: -180px;
+    font-size: 30px;
+}
+
+span{
+    margin-left: 520px;
+    margin-top: -150px;
+    font-size: 25px;
+    color: orangered;
+}
+
+label>a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 80px;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px rgba(239, 227, 204, 0.895);
+}
+label>a:hover{
+    color: red;
+    text-shadow: rgba(255, 0, 0, 0.614);
+}
+
+ul{
+    float: right;
+    margin: 25px;
+}
+li{
+    display: inline-block;
+    padding: 2px 6px;
+}
+
+#i1{
+    mix-blend-mode: multiply;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+}
+
+#check{
+    display: none;
+}
+@media (max-width : 1800px) {
+    #i1{
+        display: none;
+    }
+    .h1{
+        display: none;
+    }
+
+    .container{
+        background-image: url(https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?cs=srgb&dl=pexels-miguel-%C3%A1-padri%C3%B1%C3%A1n-255379.jpg&fm=jpg);
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.8;
+    }
+
+    #i2{
+        display: inline;
+    }
+
+}
+
+@media (max-width : 960px) {
+    .logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    li a{
+        font-size: 16px;
+    }
+    
+    .h1{
+        display: none;
+    }
+
+    #i2{
+        display: none;
+    }
+
+    p{
+        display: none;
+    }
+    span{
+        display: none;
+    }
+
+    ol{
+        display: none;
+    }
+
+    .container{
+        background-image: url(zoro.jpg);
+        width: 100%;
+        height: 100vh;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 0.8;  
+    }
+
+    .h2{
+        color: antiquewhite;
+        margin-top: 200px;
+    }
+
+}
+
+@media (max-width: 1240px){
+    p{
+        display: none;
+    }
+    span{
+        display: none;
+    }
+
+    ol{
+        margin-top: -250px;
+    }
+
+}
+
+@media (max-width: 1082px)
+{
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 60px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    p{
+        display: none;
+    }
+    span{
+        display: none;
+    }
+
+    label>a{
+        display: none;
+    }
+
+    li{
+        display: block;
+        padding: 40px;
+    }
+    ul li a{
+        font-size: 20px;
+        background: none;
+    }
+    #check:checked ~ ul{
+        left: -30px;
+    }
+
+    #i1{
+        display: inline;
+    }
+
+    .h1{
+        display: inline;
+        color: orangered;
+        text-shadow: 3px 3px 3px orange;
+        font-weight: bold;
+        font-size: 50px;
+        position: relative;
+        top: 10px;
+        left: 80px;
+    }
+
+    p{
+        display: none;
+    }
+    span{
+        display: none;
+    }
+
+    ol li{
+        display: flex;
+        flex-wrap: wrap-reverse;
+        padding: 10px;
+    }
+
+    ol{
+        margin-left: 100px;
+        margin-top: -50px;
+        
+    }
+
+
+
+}
+
